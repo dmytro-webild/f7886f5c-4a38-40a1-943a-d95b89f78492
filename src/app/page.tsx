@@ -53,7 +53,7 @@ export default function LandingPage() {
       button={{
         text: "Request A Quote",        href: "#contact"}}
       topBarButton={{
-        text: "اللغات / زمان",        onClick: () => console.log('Language selection button clicked')
+        text: "اللغات / زمان",        onClick: () => alert('Language selection functionality is coming soon!')
       }}
       brandName="Daroj PVC"
     />
