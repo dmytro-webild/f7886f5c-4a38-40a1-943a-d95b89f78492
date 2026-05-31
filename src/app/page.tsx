@@ -53,7 +53,8 @@ export default function LandingPage() {
       button={{
         text: "Request A Quote",        href: "#contact"}}
       topBarButton={{
-        text: "اللغات / زمان"}}
+        text: "اللغات / زمان",        onClick: () => console.log('Language selection button clicked')
+      }}
       brandName="Daroj PVC"
     />
   </div>
@@ -68,7 +69,8 @@ export default function LandingPage() {
       tagAnimation="slide-up"
       buttons={[
         {
-          text: "Request Your Free Quote",          href: "#contact"},
+          text: "Request Your Free Quote",          href: "#contact",          onClick: () => console.log('Request Free Quote button clicked')
+        },
       ]}
       buttonAnimation="slide-up"
       mediaItems={[
